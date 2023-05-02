@@ -21,10 +21,10 @@ function borrarContacto(contacto){
 console.log(listaContactos);*/
 
 //Crea una función para imprimir en consola los contactos presentes en la lista
-function imprimir(contacto){
+function imprimir(){
     for (const contacto of listaContactos) {
         console.log(contacto);
     }
 }
 
-/* imprimir(listaContactos);*/
+imprimir();
