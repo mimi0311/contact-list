@@ -2,7 +2,7 @@ let listaContactos = [];
 
 //Crea una función para añadir un nuevo contacto a una lista
 function agregarContacto(nombre, apellido, telf, ciudad, direccion){
-    contacto = {
+    const contacto = {
         id: listaContactos.length + 1,
         nombre,
         apellido,
@@ -45,5 +45,3 @@ function imprimir(){
 }
 
 imprimir();
-
-
