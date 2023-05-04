@@ -23,9 +23,9 @@ console.log(listaContactos);
 
 //Crea una función para borrar un contacto existente de la lista
 function borrarContacto(nombreContacto){
-    const partes = nombreContacto.split(" ")
-    const nombre = partes[0]
-    const apellido = partes[1]
+    const partes = nombreContacto.split(" ");
+    const nombre = partes[0];
+    const apellido = partes[1];
     for(let i = 0; i < listaContactos.length; i++){
         if(listaContactos[i].nombre === nombre && listaContactos[i].apellido === apellido){
             return listaContactos.splice(i, 1);
